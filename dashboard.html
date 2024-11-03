@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+    <!--------------MATERIAL ICONS--------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                    <h2>AMS |<span class="danger"> T-Sel</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html" class="active" onclick="showContent('dashboard')">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="asset-management.html" onclick="showContent('asset-management')">
+                    <span class="material-icons-sharp">business_center</span>
+                    <h3>Asset Management</h3>
+                </a>
+                <a href="#" onclick="showContent('inventory')">
+                    <span class="material-icons-sharp">storage</span>
+                    <h3>Inventory</h3>
+                </a>
+                <a href="#" onclick="showContent('asset-tracking')">
+                    <span class="material-icons-sharp">gps_fixed</span>
+                    <h3>Asset Tracking</h3>
+                </a>
+                <a href="#" onclick="showContent('maintenance')">
+                    <span class="material-icons-sharp">construction</span>
+                    <h3>Maintenance</h3>
+                </a>
+                <a href="#" onclick="showContent('depreciation')">
+                    <span class="material-icons-sharp">money_off</span>
+                    <h3>Depreciation</h3>
+                </a>
+                <a href="#" onclick="showContent('reports')">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#" onclick="showContent('settings')">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#" onclick="showContent('add-products')">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
